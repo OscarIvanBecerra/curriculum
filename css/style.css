@@ -1,12 +1,27 @@
 body{
-    background-color: rgb(150, 155, 151);
+    background-color: rgb(255, 255, 255);
 }
 
 img{
-    width: 200px; /*Ancho de la imagen*/
-    height: 200px; /*Alto de la imagen*/
+    width: 250px; /*Ancho de la imagen*/
+    height: 250px; /*Alto de la imagen*/
 }
 
 tr:hover{
-    background-color: brown;
+    background-color: rgb(110, 105, 105);
+}
+
+input{
+    border-radius: 3px;
+    border: 3px solid greenyellow;
+    background-color: red;
+}
+
+.inputcolor{
+    background-color: rgb(55, 55, 191);
+}
+
+#contraseña{
+    background-color: aqua; /*color de fondo*/
+    color: orangered; /*color de la letra*/
 }
