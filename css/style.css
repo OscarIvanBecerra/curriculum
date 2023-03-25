@@ -13,15 +13,30 @@ tr:hover{
 
 input{
     border-radius: 3px;
-    border: 3px solid greenyellow;
-    background-color: red;
+    border: 3px solid rgb(0, 0, 0);
+    background-color: #5d6069;
 }
 
 .inputcolor{
-    background-color: rgb(55, 55, 191);
+    background-color: #5d6069;
 }
 
 #contraseña{
     background-color: aqua; /*color de fondo*/
     color: orangered; /*color de la letra*/
 }
+
+#MRX150{
+    width: 250;
+    height: 250;
+}
+
+#ONE110{
+    width: 300px;
+    height: 300px;
+}
+
+.jkjk{
+    background-color: #ffffff;
+}
+
