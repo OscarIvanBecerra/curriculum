@@ -6,6 +6,8 @@
 
 body {
     font-family: 'roboto', sans-serif;
+    background: url('/img/cables.webp');
+    
 }
 
 h1 {
@@ -17,6 +19,7 @@ h1 {
     max-width: 1400px;
     margin: auto;
     overflow: hidden;
+    
 }
 
 header::beafore{
@@ -28,7 +31,7 @@ header::beafore{
 nav {
     width: 100%;
     height: 80px;
-    background: #fff;
+    background: #4a7faa;
     border-bottom: 1px solid transparent;
     box-shadow: 1px 1px 10px 0 rgba(0,0,0,.2);
     position: fixed;
@@ -50,7 +53,7 @@ nav {
 }
 
 .nav .enlaces-header a {
-    color: #5d6678;
+    color: #000000;
     text-decoration: none;
     margin-left: 20px;
     padding: 12px;
@@ -58,15 +61,16 @@ nav {
 }
 
 .nav .enlaces-header a:hover {
-    color: #fff;
-    background-color: #d03d3d;
-    border-color: #d03d3d;
+    color: #2996c2;
+    background-color: #e6e6e6;
+    border-color: #d6d6d6;
     transition: all ease-in-out .4s;
 }
 
 .titulospro{
     text-align: left;
     margin: 20px 0;
+   
 }
 
 .contenido-header {
@@ -106,7 +110,7 @@ nav {
     margin: 28px 0 0 0;
     width: 150px;
     display: inline-block;
-    background-color: #d03d3d;
+    background-color: #217196;
     text-align: center;
     color: #fff;
     text-decoration: none;
@@ -115,6 +119,6 @@ nav {
     font-weight: 400;
     font-size: 16px;
     text-transform: uppercase;
-    box-shadow: 0 8px 32px rgba(97, 31, 31, 0.46);
+    box-shadow: 0 8px 32px rgba(6, 24, 82, 0.46);
 
 }
