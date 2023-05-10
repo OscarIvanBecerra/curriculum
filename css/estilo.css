@@ -337,6 +337,43 @@ footer{
 }
 
 /*###################### BREAK #####*/
+@media screen and (max-width:900px) {
+    .contenido-header > img {
+        width:  150px;
+        height: 170px;
+        animation: ease-in animacion 0.5s;
+    }
+    h1 {
+        font-size: 25px;
+        margin-top: 90px;
+        }
+    .contenido-header {
+        width: 100%;
+        height: 400px;
+    }
+    .certificado{
+        width: 45%;
+    }
+    /*########## FOOTER ##########*/
+    .partFooter {
+        width: 80%;
+    }
+
+    .partfooter img {
+    display: none;
+    
+    }
+
+    footer{
+    padding: 0px;
+    margin-top: 40px;
+}
+
+
+}
+
+
+
 
 @media screen and (max-width:700px) {
 /*### BARRA DE MENU ### */
@@ -405,16 +442,7 @@ footer{
         height: 130px;
     }
 
-    /*########## FOOTER ##########*/
-    .partfooter img {
-        display: none;
-        
-    }
-
-    footer{
-        padding: 0px;
-        margin-top: 40px;
-    }
+    
  }
 
 
