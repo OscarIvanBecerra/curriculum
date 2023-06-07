@@ -112,7 +112,7 @@ nav {
     margin: 28px 0 0 0;
     width: 150px;
     display: inline-block;
-    background-color: #217196;
+    background-color: #4a7faa;
     text-align: center;
     color: #fff;
     text-decoration: none;
@@ -336,7 +336,7 @@ footer{
     line-height: 80PX;
 }
 
-/*###################### BREAK #####*/
+/*###################### BREAK ################*/
 @media screen and (max-width:900px) {
     .contenido-header > img {
         width:  150px;
@@ -376,13 +376,13 @@ footer{
 
 
 @media screen and (max-width:700px) {
-/*### BARRA DE MENU ### */
+/*################## BARRA DE MENU ################## */
     .hamburguer{
      display: block;
     }
     .enlaces-header{
      position: fixed;
-     background-color: #4c00ff;
+     background-color: #4a7faa;
      top: 0;
      right: 0;
      width: 100%;
@@ -402,7 +402,7 @@ footer{
      font-weight: 800;
      margin-top: 20px;
      width: 50%;
-     background-color: #e04949;
+     background-color: #2996c2;
     }
     .nav .enlaces-header a:hover{
      color: #0400ff;
